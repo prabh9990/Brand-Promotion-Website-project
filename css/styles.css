@@ -1,0 +1,197 @@
+#title {
+  background-color: #ff4c68;
+}
+
+#pic {
+  background-color: #ff4c68;
+  color: white;
+  z-index: -1
+}
+
+body {
+  font-family: 'Montserrat';
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5
+}
+
+h2 {
+  font-family: Montserrat;
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 1.5;
+  padding-top: 10%
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+p {
+  color: #8f8f8f
+}
+
+.container-fluid {
+  padding: 3% 15% 1% 15%;
+}
+
+.container-fluid2 {
+  padding: 0% 15% 7% 15%;
+}
+
+.main-pic {
+  height: 39rem;
+  transform: rotate(18deg);
+  padding-top: 2rem;
+  position: absolute;
+  left: 25%;
+}
+
+/* Navbar */
+.navbar {
+  padding: 0 0 3.5rem
+}
+
+.navbar-brand {
+  font-size: 2rem;
+  font-family: "Ubuntu"
+}
+
+.nav-item {
+  padding: 0px 18px;
+}
+
+.nav-link {
+  font-family: 'Montserrat';
+  font-size: 1.1rem;
+  font-weight: light;
+}
+
+/* Buttons */
+.download-button {
+  margin: 7% 3% 5% 0
+}
+
+/* content/features */
+#features {
+  padding: 7% 15%;
+  position: relative;
+  background-color: white;
+}
+
+.headbox {
+  text-align: center;
+  padding: 0 5%
+}
+
+.c-icon {
+  color: #ef8172;
+  font-size: 80px;
+}
+
+.c-icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonials */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px 0 20px
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+/* Press */
+#press {
+  padding-bottom: 7%;
+  text-align: center;
+  background-color: #ef8172;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-col {
+  padding: 3% 2%;
+}
+
+.btn {
+  margin-top: 50px
+}
+
+/* CTA */
+
+#cta { background-color: #ff4c68;
+      color: white;
+      }
+
+.cta-line { font-weight: bold;
+    font-size: 3.5rem;
+    text-align: center;
+    padding: 8% 16% 0% 16%
+}
+
+
+.cta-down-buttons { padding: 0% 0% 6% 38%; }
+
+
+/* Footer */
+
+#footer {text-align: center;
+          font-size: 1rem;
+        font-weight: 500;
+      padding-bottom: 3.5%}
+
+.foot-icon {padding: 5% 0.6% 2% 0.6%}
+
+
+@media (max-width: 1028px) {
+  .main-pic {
+    position: static;
+    transform: rotate(0);
+    height: 32rem;
+    padding-left: 120px
+  }
+
+  h1 {
+    text-align: center;
+  }
+
+  .headbox {
+    padding: 5px 0 65px
+  }
+
+  .down-buttons {
+    padding-left: 60px
+  }
+
+  .cta-down-buttons { padding: 0% 0% 6% 25%; }
+
+}
